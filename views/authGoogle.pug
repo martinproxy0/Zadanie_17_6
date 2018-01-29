@@ -1,0 +1,14 @@
+html
+    head
+        title Log In
+    body
+        if(user)
+            h1 Hi, #{user.first_name}
+            h2 You`re loged in ;)
+            div
+                a(href="/") Home
+        else
+            div
+                h1 U need to have name ;)
+            div
+                a(href="/") Go to add your name

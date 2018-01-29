@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Node Hello world example
+  body
+    form(action='http://localhost:3000/logIn', method='GET')
+      p
+        | First Name: 
+        input(type='text', name='first_name')
+      p
+        | Last Name: 
+        input(type='text', name='last_name')
+      input(type='submit', value='Log In')
+    button
+      a(href='http://localhost:3000/first-template') Fisrt T
+    button
+      a(href='http://localhost:3000/dynamic-view') dynamic-view
